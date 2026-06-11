@@ -1,0 +1,140 @@
+:root{
+  --navy:#0a2a5e;
+  --dark:#061a3a;
+  --gold:#f2c200;
+  --bg:#f5f7fb;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:var(--bg);
+}
+
+header{
+  background:var(--navy);
+  color:white;
+  padding:16px 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  border-bottom:4px solid var(--gold);
+}
+
+nav a{
+  color:white;
+  margin-left:15px;
+  text-decoration:none;
+  font-weight:bold;
+  font-size:14px;
+}
+
+nav a:hover{
+  color:var(--gold);
+}
+
+.container{
+  padding:50px 10%;
+}
+
+.card{
+  background:white;
+  padding:18px;
+  margin-top:15px;
+  border-radius:8px;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:15px;
+}
+
+.title{
+  font-size:20px;
+  color:var(--navy);
+  border-left:5px solid var(--gold);
+  padding-left:10px;
+  margin-bottom:20px;
+}
+
+/* LOGIN */
+.login-box{
+  width:350px;
+  margin:100px auto;
+  background:white;
+  padding:25px;
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+input{
+  width:100%;
+  padding:10px;
+  margin-top:10px;
+}
+
+button{
+  width:100%;
+  padding:10px;
+  margin-top:15px;
+  background:var(--navy);
+  color:white;
+  border:none;
+  cursor:pointer;
+}
+
+button:hover{
+  background:var(--dark);
+}
+
+footer{
+  background:var(--dark);
+  color:white;
+  text-align:center;
+  padding:20px;
+  margin-top:40px;
+}.fisa-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    background: #0b2342;
+    border-bottom: 3px solid #d4af37;
+    z-index: 9999;
+}
+
+.fisa-logo {
+    width: 70px;
+    height: 70px;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+.fisa-brand h1 {
+    margin: 0;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.fisa-brand p {
+    margin: 0;
+    color: #d4af37;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+body {
+    padding-top: 100px;
+}
